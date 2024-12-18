@@ -1,0 +1,275 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* newsletter */
+
+.hello{
+    font-size: larger;
+}
+
+.newsletter-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#f2f2f2;
+    padding-left: 50px ;
+    padding-right: 200px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+
+/* Logo */
+.logo img {
+    height: 125px;
+    width: 290px;
+    padding-left: 50px;
+}
+
+/* Newsletter Text */
+.newsletter-section {
+    flex: 1;
+    margin: 0 10px;
+    width: 200px;
+    display: inline;
+
+}
+
+.newsletter-section h3 {
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+    color: #1a1a1a;
+    font-weight: 600;
+    padding-left: 40px;
+}
+
+.newsletter-section p {
+    font-size: 0.9rem;
+    color: #666;
+    padding-left: 40px;
+}
+
+/* Input Field and Button */
+.newsletter-input {
+    display: flex;
+    align-items: center;
+}
+
+.newsletter-input input {
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 50px 0 0 50px;
+    outline: none;
+    width: 300px;
+    font-size: 0.9rem;
+}
+
+.newsletter-input button {
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 50px ;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.newsletter-input button:hover {
+    background-color: #555;
+}
+
+
+
+
+
+/* Footer */
+.footer {
+    background-color:#1b1b1b;
+   
+    color: #ffffff;
+    
+}
+
+
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-top: 10px;
+    padding-left: 150px;
+    padding-right: 150px;
+
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 150px;
+    margin: 10px 20px;
+    padding-top: 40px;
+}
+
+.footer-sectionabout{
+   width: 350px;
+   font-size: small;
+   padding-top: 40px;
+}
+
+.footer-sectionabout p{
+    text-decoration: none;
+    color:#a8a8a8;
+    font-size: 0.9rem;
+    transition: color 0.3s;
+}
+
+.footer-sectionmobile{
+   padding-top: 80px; 
+}
+
+.footer-sectionmobile button {
+    padding: 15px;
+    color: white;
+    background-color: #303030;
+    border: none;
+    border-radius: 7px;
+}
+
+.footer-section h4 {
+    margin-bottom: 15px;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: large;
+}
+
+.footer-section ul {
+    list-style: none;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color:#a8a8a8;
+    font-size: 0.9rem;
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: white;
+}
+
+.footer-sectionabout img {
+    height: 100px;
+    width: 175px;
+}
+.footer-sectionabout h4{
+ 
+    padding-top: 20px;
+    padding-bottom: 20px;
+  
+    color: #ffffff;
+    font-weight: 400;
+    font-size: large;
+
+
+}
+
+.footer-sectionabout p{
+    padding-right: 20px;
+}
+
+.footer-sectionmobile h4{
+    font-size: large;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: 200;
+}
+
+.footer-sectionmobile p{
+    font-weight: 500;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 0.9rem;
+   
+
+
+}
+.footer-sectionmobile h5{
+    font-weight: 100;
+    text-decoration: none;
+    color: #afafaf;
+    font-size: 0.6rem;
+}
+.footer-sectionmobile img{
+    height: 25px;
+    width: 25px;
+    flex-direction: column;
+}
+
+.footer-sectionabout p{
+    padding-bottom: 10px;
+    color: #a8a8a8;
+}
+
+.footer-section .app-button {
+    display: flex;
+    margin: 10px 0;
+    padding: 8px 12px;
+    background-color:#303030;
+    border: 1px solid #555;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px ;
+    border-top: 1px solid #333;
+    margin-top: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.social-icons{
+    height: 3px;
+}
+
+ .social-icons img{
+    border-radius: 100%;
+    height: 39x;
+    width: 3px;
+ 
+}
+
+.footer-bottom .social-icons a:hover {
+    color: white;
+}
+
+.payments img {
+    height: 20px;
+    margin: 0 5px;
+
+}
+
+.payments{
+    padding-right: 50px;
+}
+
+.footer-bottom p {
+    font-size: 0.9rem;
+    color: #a8a8a8;
+}
